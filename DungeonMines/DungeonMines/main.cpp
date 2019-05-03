@@ -2,17 +2,20 @@
 #include <iostream>
 
 
+
+
+
 typedef struct {
-	int sizex = 1920;//GetScreenWidth() / 32;
-		int sizey = 1080;//GetScreenHeight() / 18;
+	int sizex = GetScreenWidth() / 32;
+		int sizey = GetScreenHeight() / 18;
 	bool acitve = true;
 }box;
 
 typedef struct {
 	int score = 0;
-	int posx = 220;
-	int posy = 220;
-	Vector2 vPos = { 220,220 };
+	float posx = 0;
+	float posy = 0;
+	Vector2 vPos = { 0,0 };
 	int speed = 5;
 }Player;
 
@@ -32,9 +35,16 @@ int main(int argc, char* argv[])
 
 	//init levels
 	Rectangle Boundarys = { 0,0,(float)(GetScreenWidth()),(float)(GetScreenHeight()) };
-	Rectangle Boundarys_innen = { 120,120,(float)(GetScreenWidth()),(float)(GetScreenHeight()) };
+	//init PlayerPos
+	player1.posx = 2 * (GetScreenWidth() / 32);
+	player1.posy = 2 * (GetScreenHeight() / 18);
+	player1.vPos = { player1.posx, player1.posy };
 
-	Rectangle PlayerHitBox = { 220,220,(GetScreenWidth()/32),(GetScreenHeight()/18) };
+	///*Rectangle Boundarys_edges = { 120,120,(float)(GetScreenWidth()),(float)(GetScreenHeight()) };*/ 
+	//Hier switch für levelauswahl
+
+
+	Rectangle PlayerHitBox = { player1.posx,player1.posy,(GetScreenWidth()/32),(GetScreenHeight()/18) };
 
 	//--------------------------------------------------------------------------------------
 
@@ -45,6 +55,16 @@ int main(int argc, char* argv[])
 		//----------------------------------------------------------------------------------
 		// TODO: Update your variables here
 		//----------------------------------------------------------------------------------
+
+		//GRID 
+		
+
+
+		//init map
+		
+
+
+
 
 		//Input Keyboard
 
@@ -98,13 +118,13 @@ int main(int argc, char* argv[])
 		}
 
 
-		//Collisiondetection
-		if (!CheckCollisionRecs(PlayerHitBox, Boundarys_innen))
+		//Collisiondetection protootype
+		/*if (!CheckCollisionRecs(PlayerHitBox, Boundarys_edges))
 		{
 			for (int i = 0; i < 10; i++) {
 				std::cout << "HIT" << i << std::endl;
 			}
-		}
+		}*/
 
 
 
@@ -116,15 +136,24 @@ int main(int argc, char* argv[])
 
 		ClearBackground(RAYWHITE);
 		//GameLoop
-	
+		//Draw Level Boundarys and PlayerHitBox
 		for (int i = 0; i <= 32; i++)
 		{
-
-
+			//Boundary
 			DrawRectangleLinesEx(Boundarys, (GetScreenHeight() / 18), RED);
+			//PlayerHitBox
 			DrawRectangleLinesEx(PlayerHitBox, 10, BLUE);
 
 		}
+		// Draw Development Grid
+		for (int i = 1; i <= 32; i++)
+		{
+			DrawLine(i*(GetScreenWidth() / 32), GetScreenHeight()/18, i*(GetScreenWidth() / 32), (GetScreenHeight()-(GetScreenHeight()/18)), BLACK);
+			DrawLine((GetScreenWidth() / 32), i*(GetScreenHeight()/18),  (GetScreenWidth())-(GetScreenWidth()/32), i*(GetScreenHeight()/18), BLACK);
+
+		}
+
+		
 		EndDrawing();
 		//----------------------------------------------------------------------------------
 

@@ -1,10 +1,8 @@
 ﻿  main.cpp
-G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(37): warning C4838: Konvertierung von "int" zu "float" erfordert eine einschränkende Konvertierung
-G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(37): warning C4244: "Initialisierung": Konvertierung von "int" in "float", möglicher Datenverlust
-G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(60): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
-G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(68): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
-G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(76): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
-G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(84): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
-G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(95): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
-G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(96): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
+G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(39): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
+G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(40): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
+G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(47): warning C4838: Konvertierung von "int" zu "float" erfordert eine einschränkende Konvertierung
+G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(47): warning C4244: "Initialisierung": Konvertierung von "int" in "float", möglicher Datenverlust
+G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(113): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
+G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(114): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
   DungeonMines.vcxproj -> G:\GitHub\Lakusan\Prog1Project\DungeonMines\Debug\DungeonMines.exe
