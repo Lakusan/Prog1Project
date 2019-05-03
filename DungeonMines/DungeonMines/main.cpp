@@ -3,8 +3,8 @@
 
 
 typedef struct {
-	int sizex = GetScreenWidth() / 32;
-	int sizey = GetScreenHeight() / 18;
+	int sizex = 1920;//GetScreenWidth() / 32;
+		int sizey = 1080;//GetScreenHeight() / 18;
 	bool acitve = true;
 }box;
 
@@ -34,7 +34,7 @@ int main(int argc, char* argv[])
 	Rectangle Boundarys = { 0,0,(float)(GetScreenWidth()),(float)(GetScreenHeight()) };
 	Rectangle Boundarys_innen = { 120,120,(float)(GetScreenWidth()),(float)(GetScreenHeight()) };
 
-	Rectangle PlayerHitBox = { 220,220,120,120 };
+	Rectangle PlayerHitBox = { 220,220,(GetScreenWidth()/32),(GetScreenHeight()/18) };
 
 	//--------------------------------------------------------------------------------------
 
