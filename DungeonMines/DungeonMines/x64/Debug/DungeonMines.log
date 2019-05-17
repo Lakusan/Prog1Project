@@ -1,0 +1,28 @@
+﻿main.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "InitWindow" in Funktion ""void __cdecl initScreen(void)" (?initScreen@@YAXXZ)".
+main.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "WindowShouldClose" in Funktion "main".
+main.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "GetScreenWidth" in Funktion ""void __cdecl `dynamic initializer for 'framewidth''(void)" (??__Eframewidth@@YAXXZ)".
+Cell.obj : error LNK2001: Nicht aufgelöstes externes Symbol "GetScreenWidth".
+player.obj : error LNK2001: Nicht aufgelöstes externes Symbol "GetScreenWidth".
+main.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "GetScreenHeight" in Funktion ""float __cdecl getCurrentScreenHeightAsFloat(void)" (?getCurrentScreenHeightAsFloat@@YAMXZ)".
+Cell.obj : error LNK2001: Nicht aufgelöstes externes Symbol "GetScreenHeight".
+player.obj : error LNK2001: Nicht aufgelöstes externes Symbol "GetScreenHeight".
+main.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "ClearBackground" in Funktion "main".
+main.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "BeginDrawing" in Funktion "main".
+main.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "EndDrawing" in Funktion "main".
+main.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "SetTargetFPS" in Funktion ""void __cdecl initScreen(void)" (?initScreen@@YAXXZ)".
+main.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "GetFrameTime" in Funktion "main".
+main.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "GetRandomValue" in Funktion ""void __cdecl initCells(void)" (?initCells@@YAXXZ)".
+player.obj : error LNK2001: Nicht aufgelöstes externes Symbol "GetRandomValue".
+main.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "IsKeyPressed" in Funktion "main".
+main.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "IsKeyDown" in Funktion "main".
+main.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "DrawRectangle" in Funktion "main".
+main.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "DrawRectangleLinesEx" in Funktion "main".
+main.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "CheckCollisionRecs" in Funktion "main".
+main.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "LoadTexture" in Funktion "main".
+main.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "DrawTexture" in Funktion "main".
+main.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "DrawTextureRec" in Funktion "main".
+main.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "LoadFont" in Funktion "main".
+main.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "DrawTextEx" in Funktion "main".
+main.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "TextFormat" in Funktion "main".
+G:\0_Dev\raylib-master\projects\VS2017\raylib\Release.DLL\raylib.lib : warning LNK4272: Bibliothekcomputertyp "x86" steht in Konflikt mit dem Zielcomputertyp "x64"
+G:\GitHub\Lakusan\Prog1Project\DungeonMines\x64\Debug\DungeonMines.exe : fatal error LNK1120: 21 nicht aufgelöste Externe
