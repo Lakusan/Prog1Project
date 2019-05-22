@@ -751,6 +751,9 @@ int main(int argc, char* argv[])
 		break;
 		case STATISTICS:
 		{
+			StopMusicStream(GameLoop);
+			PlayMusicStream(TitleMusic);
+			UpdateMusicStream(TitleMusic);
 			if (isVictory)
 			{
 				//init new level with increased difficulty
