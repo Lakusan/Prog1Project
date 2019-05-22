@@ -23,6 +23,7 @@
     <ProjectGuid>{4B5C8FE8-2D3E-4E34-A5E5-8794F19DC458}</ProjectGuid>
     <RootNamespace>DungeonMines</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>SweetDreams</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

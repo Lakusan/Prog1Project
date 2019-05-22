@@ -44,8 +44,6 @@ void initCells();
 float getCurrentScreenWidthAsFloat();
 float getCurrentScreenHeightAsFloat();
 
-
-
 //Highscore
 int highscoreOld = 1;
 int highscoreNew = 0;
@@ -266,7 +264,7 @@ int main(int argc, char* argv[])
 
 	//Messages Storyteller/Narrator
 	int textSpeed = 0;
-	const char titleMessage[273] = "Every Hero needs beauty sleep. Here is one of them. Not the best ohne, that's for\nshure. But at least one of them. This is Beardman. He has a beard and\n...yeah that's it I think.....\nEnough said I think everybody of you wants to know what kind of dreams a hero has..";
+	const char titleMessage[273] = "Every Hero needs beauty sleep. Here is one of them. Not the best ohne, that's for\nsure. But at least one of them. This is Beardman. He has a beard and\n...yeah that's it I think.....\nEnough said I think everybody of you wants to know what kind of dreams a hero has..";
 	const char titleMessageGerman[298] = "Jeder Held brauchst seinen Schönheitsschlaf. Hier ist einer von ihnen.\nSicherliche nicht der Beste, das ist sicher. Aber besser als keiner.\nDas ist Bartmann. Er hat einen Bart und...nun ja das war es auch schon.....\nGenug gesagt ich denke jeder von euch möchte wissen was so ein Held so traeumt...";
 	const char statisticsMessage[] = "You reached for the light above and relized that this wasn't the exit.";
 	const char statisticsMessageGerman[] = "Du erreichst die Quelle des Lichts und musst mit Erschrecken feststellen,\ndass das nicht das Ende war.";
@@ -1530,11 +1528,10 @@ void initScreen()
 {
 	
 	InitWindow(screenWidth, screenHeight, "Sweet Dreams");
-	ToggleFullscreen();
+	//ToggleFullscreen();
 	SetTargetFPS(60);
 	InitAudioDevice();
-	//SetWindowIcon();
-	//SetWindowTitle();
+	
 	
 }
 
