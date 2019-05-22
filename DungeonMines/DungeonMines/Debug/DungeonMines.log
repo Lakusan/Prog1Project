@@ -1,13 +1,13 @@
 ﻿  main.cpp
-G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(691): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
-G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(719): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
-G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(724): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
-G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(760): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
-G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(772): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
-G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(822): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
-G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(831): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
-G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(840): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
-G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(849): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
-G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(1063): warning C4244: "return": Konvertierung von "int" in "float", möglicher Datenverlust
-G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(1067): warning C4244: "return": Konvertierung von "int" in "float", möglicher Datenverlust
+G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(1030): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
+G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(1058): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
+G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(1063): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
+G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(1099): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
+G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(1111): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
+G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(1161): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
+G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(1170): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
+G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(1179): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
+G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(1188): warning C4244: "Argument": Konvertierung von "float" in "int", möglicher Datenverlust
+G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(1628): warning C4244: "return": Konvertierung von "int" in "float", möglicher Datenverlust
+G:\GitHub\Lakusan\Prog1Project\DungeonMines\DungeonMines\main.cpp(1633): warning C4244: "return": Konvertierung von "int" in "float", möglicher Datenverlust
   DungeonMines.vcxproj -> G:\GitHub\Lakusan\Prog1Project\DungeonMines\Debug\DungeonMines.exe

@@ -138,12 +138,10 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Cell.cpp" />
     <ClCompile Include="player.cpp" />
-    <ClCompile Include="textures.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cell.h" />
     <ClInclude Include="player.h" />
-    <ClInclude Include="textures.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

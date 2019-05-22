@@ -27,6 +27,7 @@ Player::Player() {
 	shield = false;
 	blocked = false;
 
+
 }
 
 Player::~Player()

@@ -15,7 +15,8 @@ public:
 	bool collisionVDirection;
 	bool shield;
 	bool blocked;
-	//player attributes for powerups punishments and game over
+
+	
 	
 	int lifes;
 	float speed;
