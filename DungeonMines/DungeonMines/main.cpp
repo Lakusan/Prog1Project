@@ -88,12 +88,12 @@ int levelScore = 0;
 int monsterFound = 0;
 int trapsActivated = 0;
 
-
-
 //Create objects
 Player player1;
 Cell board[30][16];
 
+//Image
+Image icon;
 
 //create Textureobjects
 Texture2D Monster;
@@ -143,10 +143,6 @@ Sound fxRevealDarkness;
 Sound fxFootSteps;
 
 
-//PlaySound();
-
-//create image for icon
-
 //Front ( included in Raylib-Master-Package and free to use even in commercial projects)
 Font customFont;
 
@@ -168,6 +164,8 @@ int main(int argc, char* argv[])
 	//update Point of View player
 	player1.Player::SetDirectionState();
 	
+	//Icon
+	icon = LoadImage("resources/Health_2.png");
 
 	//Monster
 	Monster = LoadTexture("resources/Monster_Tiles.png");
@@ -235,9 +233,6 @@ int main(int argc, char* argv[])
 	//GameOverScreen
 	GameOverScreen = LoadTexture("resources/GameOverScreen.png");
 
-	//Icon
-	//Icon = LoadTexture("resources/Health_3.png");
-
 	//Load customFont
 	customFont = LoadFont("resources/pixantiqua.ttf");
 
@@ -247,7 +242,6 @@ int main(int argc, char* argv[])
 	GameLoop = LoadMusicStream("resources/Music/GameLoopRock.ogg");
 	GameLoop2 = LoadMusicStream("resources/Music/GameLoopRockDistortionHalf.ogg");
 	GameLoop3 = LoadMusicStream("resources/Music/GameLoopRockDistortionBlast.ogg");
-
 
 	//Load Sound Files - Sounds = Example Sounds from Raylib
 	fxActivate = LoadSound("resources/Sounds/start.wav");
@@ -263,6 +257,9 @@ int main(int argc, char* argv[])
 	fxPlayerBlocked = LoadSound("resources/Sounds/dash.wav");
 	fxGameOverScream = LoadSound("resources/Sounds/die.wav");
 	fxFootSteps = LoadSound("resources/Sounds/fx_leave.wav");
+
+	//Icon
+	SetWindowIcon(icon);
 
 	//Retangle for level boundarys to check if player is inside or if there is a collision between them
 	Rectangle Boundarys = { 0,0,getCurrentScreenWidthAsFloat(),getCurrentScreenHeightAsFloat() };
