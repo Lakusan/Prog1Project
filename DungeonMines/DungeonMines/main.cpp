@@ -1528,7 +1528,7 @@ void initScreen()
 {
 	
 	InitWindow(screenWidth, screenHeight, "Sweet Dreams");
-	//ToggleFullscreen();
+	ToggleFullscreen();
 	SetTargetFPS(60);
 	InitAudioDevice();
 	
